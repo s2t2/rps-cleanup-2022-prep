@@ -20,13 +20,15 @@ def winner(user_choice, computer_choice):
 
     elif user_choice == "paper" and computer_choice == "rock":
         #print("The computer wins")
-        return "The computer wins"
+        #return "The computer wins"
+        return "The user wins"
     elif user_choice == "paper" and computer_choice == "paper":
         #print("It's a tie!")
         return "It's a tie!"
     elif user_choice == "paper" and computer_choice == "scissors":
         #print("The user wins")
-        return "The user wins"
+        #return "The user wins"
+        return "The computer wins"
 
     elif user_choice == "scissors" and computer_choice == "rock":
         #print("The computer wins")
