@@ -8,7 +8,34 @@ valid_options = ["rock", "paper", "scissors"]
 
 
 def winner(user_choice, computer_choice):
-    return "OOPS! TODO!"
+    if user_choice == "rock" and computer_choice == "rock":
+        #print("It's a tie!")
+        return "It's a tie!"
+    elif user_choice == "rock" and computer_choice == "paper":
+        #print("The computer wins")
+        return "The computer wins"
+    elif user_choice == "rock" and computer_choice == "scissors":
+        #print("The user wins")
+        return "The user wins"
+
+    elif user_choice == "paper" and computer_choice == "rock":
+        #print("The computer wins")
+        return "The computer wins"
+    elif user_choice == "paper" and computer_choice == "paper":
+        #print("It's a tie!")
+        return "It's a tie!"
+    elif user_choice == "paper" and computer_choice == "scissors":
+        #print("The user wins")
+        return "The user wins"
+
+    elif user_choice == "scissors" and computer_choice == "rock":
+        #print("The computer wins")
+        return "The computer wins"
+    elif user_choice == "scissors" and computer_choice == "paper":
+        #print("The user wins")
+        return "The user wins"
+    elif user_choice == "scissors" and computer_choice == "scissors":
+        return "It's a tie!"
 
 
 
